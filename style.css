@@ -31,7 +31,7 @@ html {
 
 .login-container {
     z-index: 1;
-    background-color: aliceblue;
+    background-color: rgb(252, 252, 252);
     width: 25vw;
     min-width: 320px;
     min-height: 370px;
@@ -39,6 +39,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0px 15px 20px #A91D3A;
 }
 
 .login-container > h1{
@@ -84,24 +85,18 @@ input:focus {
     font-size: 16px;
     border-bottom: 1.5px solid #00754a;
     text-decoration: none;
-    color: #00754a;
+    color: #A91D3A;
 }
 
-.text--create-account {
-    color: #006241;
-    font-family: 'Karla';
-}
-
-.create-account>a,
 button {
     font-size: 18px;
     letter-spacing: 1px;
     color: #fff;
-    border: 2px solid #006241;
+    border: 2px solid #A91D3A;
     text-decoration: none;
     padding: 8px 50px;
     margin: 10px 0;
     border-radius: 50px;
-    background-color: #006241;
+    background-color: #A91D3A;
     cursor: pointer;
 }
